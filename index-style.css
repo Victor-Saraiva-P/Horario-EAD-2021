@@ -1,0 +1,74 @@
+@font-face
+{
+    font-family: Kaushan;
+    src: url(fontes/KaushanScript-Regular.otf);
+}
+@font-face
+{
+    font-family: caveat;
+    src: url(fontes/caveat-bold.ttf);
+}
+
+body
+{
+    margin: 0%;
+}
+
+#faixa
+{
+    background-color: rgb(235, 73, 71);
+    border: solid rgb(145, 51, 48);
+}
+
+#title
+{
+    font-size: 250%;
+    text-align: center;
+    font-family: Kaushan;
+}
+
+
+#title > span
+{
+    font-size: 95%;
+}
+
+#box
+{
+    font-size: 105%;
+    background-color: rgb(235, 73, 71);
+    position: relative;
+    margin: 0px 30%;
+    border: 3px solid rgb(145, 51, 48);
+    padding-bottom: 0.6%;
+}
+
+#box > h3
+{
+    font-family: Kaushan;
+    font-size: 150%;
+    margin-left: 2%;
+    text-align: center;
+}
+
+#box > a
+{
+   font-family: caveat; 
+   color: inherit;
+   text-decoration: inherit;
+   margin-left: 2%;
+   margin-bottom: 2%;
+   text-align: center;
+   font-size: 150%;
+}
+
+a#C3
+{
+    padding-bottom: 30%;
+    text-align: center;
+}
+
+#box > a:hover
+{
+	color: rgb(145, 51, 48);
+}

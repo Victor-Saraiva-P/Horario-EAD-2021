@@ -1,0 +1,111 @@
+@font-face
+{
+    font-family: Kaushan;
+    src: url(../fontes/KaushanScript-Regular.otf);
+}
+@font-face
+{
+    font-family: caveat;
+    src: url(../fontes/caveat-bold.ttf);
+}
+
+html, body
+{
+	margin: 0%;
+}
+
+*
+{
+	font-family: caveat;
+}
+
+.faixa
+{
+	width: 99.59%;
+	background: rgb(235, 73, 71);
+	margin: 0px 0px;
+	border: 3px solid rgb(145, 51, 48);
+}
+
+.logo img
+{
+	width:9.8%; 
+    min-width: 110px;
+	margin: 0px 0.6%;
+	margin-top: 1%;
+}
+
+h1 
+{
+	font-family: Kaushan;
+	font-size: 250%;
+	padding-top: 2.4%;
+	padding-bottom: 2.4%;
+	text-align: center;
+	margin-block-end: 0%;
+	margin-block-start: 0%;  
+}
+
+.EAD
+{
+	font-size: 75%;
+}
+
+.right a, .right h3
+{
+	color: inherit;
+	padding-right: 2%;
+	float: right;
+	font-family: Kaushan;
+	text-align: center;
+	text-decoration: none;
+}
+.right a
+{
+	padding-top: 20%;
+	
+}
+
+a#dark 
+{
+	color: rgb(66, 65, 65);
+	text-decoration: none;
+}
+
+table , tr, th, td
+{	
+	margin-top: 4%;
+	border-collapse: collapse;
+	border: 3px solid rgb(235, 73, 71);
+}
+
+table
+{
+	border: 6px solid rgb(235, 73, 71);
+	font-size: 125%;
+}
+
+td > a, td > span, td 
+{
+	text-align: center;
+	color: rgb(42, 13, 12);
+	text-decoration: none;
+	padding-top: 0.7%;
+	padding-bottom: 0.8%;
+}
+
+td > a:hover
+{
+	color: rgb(235, 73, 71);
+}
+
+a:hover#mygit, a:hover#dark
+{
+	color: rgb(151, 146, 146);
+}
+
+td > .big-word
+{
+	font-size: 93%;
+	padding: 10%;
+}
