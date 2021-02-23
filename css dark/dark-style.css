@@ -114,3 +114,10 @@ a:hover#mygit, a:hover#light
 	padding-top: 0%;
 	padding-bottom: 0%;
 }
+
+.id
+{
+	font-size: smaller;
+	color: rgb(110, 108, 108);
+	font-family: 'Courier New', Courier, monospace;
+}
