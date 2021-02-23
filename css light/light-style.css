@@ -107,5 +107,6 @@ a:hover#mygit, a:hover#dark
 td > .big-word
 {
 	font-size: 93%;
-	padding: 10%;
+	padding-top: 0%;
+	padding-bottom: 0%;
 }
