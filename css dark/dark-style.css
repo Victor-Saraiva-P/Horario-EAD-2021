@@ -108,8 +108,9 @@ a:hover#mygit, a:hover#light
 	color: rgb(102, 100, 100);
 }
 
-td>.big-word 
+.big-word
 {
 	font-size: 93%;
-	padding: 10%;
+	padding-top: 0%;
+	padding-bottom: 0%;
 }
