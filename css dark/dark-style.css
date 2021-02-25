@@ -16,19 +16,20 @@ html, body
 
 *
 {
+	color: #d1cbcb;
 	font-family: caveat;
 }
 
 body
 {
-	background-color: rgb(66, 65, 65);
+	background-color: #191919;
 }
 
 .faixa 
 {
 	width: 99.59%;
-	background: rgb(145, 51, 48);
-	border: 3px solid rgb(75, 27, 26);
+	background: #9b3835;
+	border: 3px solid #4c1b1a;
 }
 
 .logo img 
@@ -48,6 +49,7 @@ h1
 	text-align: center;
 	margin-block-end: 0%;
 	margin-block-start: 0%;  
+	color: #d1cbcb;
 }
 
 .EAD 
@@ -80,19 +82,19 @@ table, tr, th, td
 {
 	margin-top: 4%;
 	border-collapse: collapse;
-	border: 3px solid rgb(145, 51, 48);
+	border: 3px solid #9b3835;
 }
 
 table 
 {
-	border: 6px solid rgb(145, 51, 48);
+	border: 6px solid #9b3835;
 	font-size: 125%;
 }
 
 td > a, td > span, td 
  {
 	text-align: center;
-	color: rgb(0, 0, 0);
+	color: #d1cbcb;
 	text-decoration: none;
 	padding-top: 0.7%;
 	padding-bottom: 0.8%;
@@ -118,6 +120,6 @@ a:hover#mygit, a:hover#light
 .id
 {
 	font-size: smaller;
-	color: rgb(110, 108, 108);
+	color: #c9bebe;
 	font-family: 'Courier New', Courier, monospace;
 }
