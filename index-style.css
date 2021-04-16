@@ -1,64 +1,57 @@
-@font-face
-{
-    font-family: Kaushan;
-    src: url(fontes/KaushanScript-Regular.otf);
-}
-@font-face
-{
-    font-family: caveat;
-    src: url(fontes/caveat-bold.ttf);
+@font-face {
+	font-family: Kaushan;
+	src: url(fontes/KaushanScript-Regular.otf);
 }
 
-html, body 
-{
+@font-face {
+	font-family: caveat;
+	src: url(fontes/caveat-bold.ttf);
+}
+
+html,
+body {
 	margin: 0%;
 }
 
-*
-{
+* {
 	color: #d1cbcb;
 	font-family: caveat;
 }
 
-body
-{
+body {
 	background-color: #191919;
 }
 
-.faixa 
-{
+.faixa {
 	width: 99.59%;
 	background: #9b3835;
 	border: 3px solid #4c1b1a;
 }
 
-.logo img 
-{
+.logo img {
 	width: 9.8%;
 	min-width: 110px;
 	margin: 0px 0.6%;
 	margin-top: 1%;
 }
 
-h1 
-{
+h1 {
 	font-family: Kaushan;
 	font-size: 250%;
 	padding-top: 2.4%;
 	padding-bottom: 2.4%;
 	text-align: center;
 	margin-block-end: 0%;
-	margin-block-start: 0%;  
+	margin-block-start: 0%;
 	color: #d1cbcb;
 }
 
-.EAD 
-{
+.EAD {
 	font-size: 75%;
 }
 
-.right a, .right h3 
-{
+.right a,
+.right h3 {
 	color: inherit;
 	padding-right: 2%;
 	float: right;
@@ -67,32 +60,36 @@ h1
 	text-decoration: none;
 }
 
-.right a 
-{
+.right a {
 	padding-top: 20%;
 }
 
-a#light 
-{
+#clock {
+	font-size: 76%;
+}
+
+a#light {
 	color: rgb(207, 199, 199);
 	text-decoration: none;
 }
 
-table, tr, th, td
-{
+table,
+tr,
+th,
+td {
 	margin-top: 4%;
 	border-collapse: collapse;
 	border: 3px solid #9b3835;
 }
 
-table 
-{
+table {
 	border: 6px solid #9b3835;
 	font-size: 125%;
 }
 
-td > a, td > span, td 
- {
+td>a,
+td>span,
+td {
 	text-align: center;
 	color: #d1cbcb;
 	text-decoration: none;
@@ -100,25 +97,22 @@ td > a, td > span, td
 	padding-bottom: 0.8%;
 }
 
-td > a:hover
-{
+td>a:hover {
 	color: rgb(145, 51, 48);
 }
 
-a:hover#mygit, a:hover#light
-{
+a:hover#mygit,
+a:hover#light {
 	color: rgb(102, 100, 100);
 }
 
-.big-word
-{
+.big-word {
 	font-size: 93%;
 	padding-top: 0%;
 	padding-bottom: 0%;
 }
 
-.id
-{
+.id {
 	font-size: smaller;
 	color: #c9bebe;
 	font-family: 'Courier New', Courier, monospace;
