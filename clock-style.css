@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Kaushan;
+    src: url(fontes/KaushanScript-Regular.otf);
+}
+
+@font-face {
+    font-family: caveat;
+    src: url(fontes/caveat-bold.ttf);
+}
+
+* {
+    font-family: caveat;
+    margin: 0%;
+}
+
+h1#tt{
+    color: white;
+    position: absolute;
+    left: 0%;
+    top: 4%;
+    left: 1%;
+}
+
+h2#f5 input
+{
+    background-color: transparent;
+    font-size: 120%;
+    border-style: none;
+    color: white;
+    float: right;
+    position: absolute;
+    right: 0%;
+    top: 4%;
+    right: 2%;
+}
+
+#links {
+    margin-top: 10%;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 140%;
+    text-align: center;
+}
+
+h3 a {
+    color: rgb(204, 197, 197);
+}
+
+#t2 a {
+    color: white;
+    text-align: center;
+}
+
+#t2 {
+    text-align: center;
+}
+
+h4#absolrs {
+    float: right;
+}
+
+h4#absolrs a {
+    color: aliceblue;
+    text-decoration: underline;
+    margin-left: -15%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    margin: 1.5%;
+}

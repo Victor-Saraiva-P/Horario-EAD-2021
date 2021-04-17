@@ -1,26 +1,27 @@
+function what_day(day) {
+    switch (day) {
+        case 1:
+            time_check(seg)
+            break;
 
+        case 2:
+            time_check(ter)
+            break;
 
-switch (day) {
-    case 1:
-        time_check(seg)
-        break;
+        case 3:
+            time_check(quar)
+            break;
 
-    case 2:
-        time_check(ter)
-        break;
+        case 4:
+            time_check(quin)
+            break;
 
-    case 3:
-        time_check(quar)
-        break;
+        case 5:
+            time_check(sext)
+            break;
 
-    case 4:
-        time_check(quin)
-        break;
+        default:
+            break;
+    }
 
-    case 5:
-        time_check(sext)
-        break;
-
-    default:
-        break;
 }
