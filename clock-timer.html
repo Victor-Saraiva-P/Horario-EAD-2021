@@ -7,31 +7,29 @@
 </head>
 
 <body>
-    <h1 id="tt">Clock Timer</h1>
-    <h2 id="f5"><input type="button" value="Atualizar" onclick="what_day(day, seg, ter, quar, quin, sext)" id="button">
-    </h2>
-    <div id="links">
-        <h3 id="t1"></h3>
-        <h1 id="t2"></h1>
-        <h3 id="t3"></h3>
-    </div>
+    <h2 id="t1"></h2>
+    <h1 id="t2"></h1>
+    <h3 id="t3"></h3>
 
-    <h4 id="absolrs"><a href="index.html">Tabela</a></h4>
-    
+    <script src="js scripts/get-info.js"></script>
+    <script src="js scripts/data-base.js"></script>
     <script>
-        var now = new Date()
-        var day = now.getDay()
-        var hour = now.getHours()
-        var min = now.getMinutes()
-
         var title1 = document.getElementById("t1");
         var title2 = document.getElementById("t2");
         var title3 = document.getElementById("t3");
-    </script>
-    <script class="what_day">
-        function what_day(day, seg, ter, quar, quin, sext) {
-            
+
+        function time_check(week) {
+            for (var i = 0; i < week.ht.length; i++) {
+                if (agora >= week.time.init[i] && agora <= week.time.end[i]) {
+                    title1.innerHTML = week.ht[i - 1]
+                    title2.innerHTML = week.ht[i]
+                    if (i + 1 < week.ht.length) {
+                        title3.innerHTML = week.ht[i + 1]
+                    }
+                }
+            }
         }
+
         switch (day) {
             case 1:
                 time_check(seg)
@@ -56,89 +54,6 @@
             default:
                 break;
         }
-    </script>
-    <script src="js scripts/data-base.js"></script>
-
-    <script>
-        title1 = document.getElementById("t1");
-        title2 = document.getElementById("t2");
-        title3 = document.getElementById("t3");
-
-        function time_check(week) {
-            now = new Date()
-            day = now.getDay()
-            hour = now.getHours()
-            min = now.getMinutes()
-
-            agora = (hour * 100) + min
-
-            var back = document.querySelector("body");
-
-            switch (hour) {
-                case 7:
-                    back.style.background = "#8c97b5";
-                    break;
-
-                case 8:
-                    back.style.background = "#b788a0"
-                    break;
-
-                case 9:
-                    back.style.background = "#db805c"
-                    break;
-
-                case 10:
-                    back.style.background = "#e1a356"
-                    break;
-
-                case 11:
-                    back.style.background = "#edda69"
-                    break;
-                case 12:
-                    back.style.background = "#ebe672"
-
-                    break;
-
-                case 13:
-                    back.style.background = "#ebe672"
-                    break;
-
-                case 14:
-                    back.style.background = "#e5b051"
-                    break;
-
-                case 15:
-                    back.style.background = "#FF8866"
-                    break;
-
-                case 16:
-                    back.style.background = "#FD6051"
-                    break;
-
-                default:
-                    back.style.background = "#392033"
-                    break;
-            }
-            for (var i = 0; i < week.ht.length; i++) {
-                if (agora >= week.time.init[i] && agora <= week.time.end[i]) {
-                    console.log(i - 1)
-                    if (week.ht[i - 1] != undefined) {
-                        title1.innerHTML = week.ht[i - 1]
-                    }
-
-                    title2.innerHTML = week.ht[i]
-
-                    if (week.ht[i + 1] != undefined) {
-                        title3.innerHTML = week.ht[i + 1]
-                    } else {
-                        title3.innerHTML = " "
-                    }
-                }
-            }
-        }
-    </script>
-    <script>
-
     </script>
 </body>
 
