@@ -22,28 +22,33 @@ body {
 	background-color: #191919;
 }
 
-.faixa {
-	width: 99.59%;
+header {
+	width: auto;
 	background: #9b3835;
 	border: 3px solid #4c1b1a;
 }
 
-.logo img {
-	width: 9.8%;
-	min-width: 110px;
-	margin: 0px 0.6%;
-	margin-top: 1%;
+img.logo {
+	width: 11%;
+	margin: 0.5%;
+	position: absolute;
+	float: left;
 }
 
 h1 {
 	font-family: Kaushan;
 	font-size: 250%;
-	padding-top: 2.4%;
-	padding-bottom: 2.4%;
 	text-align: center;
-	margin-block-end: 0%;
-	margin-block-start: 0%;
-	color: #d1cbcb;
+}
+
+h2 {
+	text-align: center;
+}
+
+h2.info {
+	position: absolute;
+	right: 0.7%;
+	margin: 0.5%;
 }
 
 .EAD {
