@@ -1,5 +1,3 @@
-
-
 switch (day) {
     case 1:
         time_check(seg)

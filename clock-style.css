@@ -19,18 +19,17 @@ h1#tt {
     left: 0%;
     top: 4%;
     left: 1%;
+    font-size: 300%;
 }
 
-h2#f5 input {
-    background-color: transparent;
+h2#f5 a {
     font-size: 120%;
-    border-style: none;
     color: white;
-    float: right;
     position: absolute;
     right: 0%;
     top: 4%;
     right: 2%;
+    text-decoration: underline;
 }
 
 #links {
@@ -72,4 +71,17 @@ h4#absolrs a {
     bottom: 0%;
     right: 0%;
     margin: 1.5%;
+}
+
+h3 a:hover{
+    color: rgb(136, 135, 135);
+}
+
+#t2 a:hover {
+    color: rgb(56, 52, 52);
+}
+
+h2#f5 a:hover
+{
+    color: rgb(105, 95, 95);
 }
