@@ -46,11 +46,12 @@ a {
     text-align: center;
 }
 
-h3 a {
-    color: rgb(204, 197, 197);
+h3 a, h3 {
+    color: rgb(88, 83, 83);
+    font-size: 140%;
 }
 
-#t2 a {
+#t2 a, h1 {
     color: white;
     text-align: center;
 }

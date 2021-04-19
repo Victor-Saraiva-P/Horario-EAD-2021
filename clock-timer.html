@@ -29,13 +29,27 @@
             for (var i = 0; i < week.ht.length; i++) {
                 if (agora >= week.time.init[i] && agora <= week.time.end[i]) {
                     if (week.ht[i - 1] != undefined) {
-                        title1.innerHTML = week.ht[i - 1]
+                        time1 = ((week.time.init[i - 1] - week.time.init[i - 1] % 100) / 100)
+                        time2 = (week.time.init[i - 1] % 100)
+                        if (time2 == 0) {
+                            time2 = String("00")
+                        }
+                        title1.innerHTML = (`${time1}:${time2} ${week.ht[i - 1]}`)
                     }
-
-                    title2.innerHTML = week.ht[i]
+                    time1 = ((week.time.init[i] - week.time.init[i] % 100) / 100)
+                    time2 = (week.time.init[i] % 100)
+                    if (time2 == 0) {
+                        time2 = String("00")
+                    }
+                    title2.innerHTML = (`${time1}:${time2} ${week.ht[i]}`)
 
                     if (week.ht[i + 1] != undefined) {
-                        title3.innerHTML = week.ht[i + 1]
+                        time1 = ((week.time.init[i + 1] - week.time.init[i + 1] % 100) / 100)
+                        time2 = (week.time.init[i + 1] % 100)
+                        if (time2 == 0) {
+                            time2 = String("00")
+                        }
+                        title3.innerHTML = (`${time1}:${time2} ${week.ht[i + 1]}`)
                     }
                 }
             }
