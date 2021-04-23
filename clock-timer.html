@@ -31,8 +31,8 @@
                     if (week.ht[i - 1] != undefined) {
                         time1 = ((week.time.init[i - 1] - week.time.init[i - 1] % 100) / 100)
                         time2 = (week.time.init[i - 1] % 100)
-                        if (time2 == 0) {
-                            time2 = String("00")
+                        if (time2 < 10) {
+                            time2 = String("0") + String(time2)
                         }
                         title1.innerHTML = (`${time1}:${time2} ${week.ht[i - 1]}`)
                     }

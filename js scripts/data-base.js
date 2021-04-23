@@ -14,7 +14,7 @@ var geografia = '<a target="_blank" href="https://us04web.zoom.us/j/71909631445?
 
 var arte = '<a target="_blank" href="https://us04web.zoom.us/j/76705124840?pwd=OHFXNWV1d2tnQmphWFlaYlhLb1M2Zz09">Arte</a>'
 
-var educacao_fisica = 'a target="_blank" href="https://us04web.zoom.us/j/77544652248?pwd=Y0pZRGN0RzNKbGtCckNkR3JYVjl5QT09">Educação Física</a>'
+var educacao_fisica = '<a target="_blank" href="https://us04web.zoom.us/j/77544652248?pwd=Y0pZRGN0RzNKbGtCckNkR3JYVjl5QT09">Educação Física</a>'
 
 var historia = '<a target target="_blank" href="https://us04web.zoom.us/j/73825369637?pwd=dmp5SDVDcEc1STk0STMyTVh6SVFzQT09">História</a>'
 
