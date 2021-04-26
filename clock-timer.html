@@ -40,18 +40,18 @@
                     time1 = ((week.time.init[i] - week.time.init[i] % 100) / 100)
                     time2 = (week.time.init[i] % 100)
                     if (time2 >= 10) {
-                        title2.innerHTML = (`${time1}:${time2} ${week.ht[i - 1]}`)
+                        title2.innerHTML = (`${time1}:${time2} ${week.ht[i]}`)
                     } else {
-                        title2.innerHTML = (`${time1}:0${time2} ${week.ht[i - 1]}`)
+                        title2.innerHTML = (`${time1}:0${time2} ${week.ht[i]}`)
                     }
 
                     if (week.ht[i + 1] != undefined) {
                         time1 = ((week.time.init[i + 1] - week.time.init[i + 1] % 100) / 100)
                         time2 = (week.time.init[i + 1] % 100)
                         if (time2 >= 10) {
-                            title3.innerHTML = (`${time1}:${time2} ${week.ht[i - 1]}`)
+                            title3.innerHTML = (`${time1}:${time2} ${week.ht[i + 1]}`)
                         } else {
-                            title3.innerHTML = (`${time1}:0${time2} ${week.ht[i - 1]}`)
+                            title3.innerHTML = (`${time1}:0${time2} ${week.ht[i + 1]}`)
                         }
                     }
                 }
