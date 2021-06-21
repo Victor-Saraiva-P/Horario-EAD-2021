@@ -46,12 +46,14 @@ a {
     text-align: center;
 }
 
-h3 a, h3 {
+h3 a,
+h3 {
     color: rgb(187, 177, 177);
     font-size: 140%;
 }
 
-#t2 a, h1 {
+#t2 a,
+h1 {
     color: white;
     text-align: center;
 }
@@ -74,15 +76,14 @@ h4#absolrs a {
     margin: 1.5%;
 }
 
-h3 a:hover{
-    color: rgb(136, 135, 135);
+h3 a:hover {
+    color: rgb(112, 109, 109);
 }
 
 #t2 a:hover {
     color: rgb(112, 109, 109);
 }
 
-h2#f5 a:hover
-{
-    color: rgb(143, 134, 134);
+h2#f5 a:hover {
+    color: rgb(163, 151, 151);
 }
