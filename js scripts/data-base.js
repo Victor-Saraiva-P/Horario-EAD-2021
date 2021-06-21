@@ -16,7 +16,7 @@ var arte = '<a target="_blank" href="https://us04web.zoom.us/j/76705124840?pwd=O
 
 var educacao_fisica = '<a target="_blank" href="https://us04web.zoom.us/j/77544652248?pwd=Y0pZRGN0RzNKbGtCckNkR3JYVjl5QT09">Educação Física</a>'
 
-var historia = '<a target target="_blank" href="https://us04web.zoom.us/j/73825369637?pwd=dmp5SDVDcEc1STk0STMyTVh6SVFzQT09">História</a>'
+var historia = '<a target="_blank" href="https://us04web.zoom.us/j/73825369637?pwd=dmp5SDVDcEc1STk0STMyTVh6SVFzQT09">História</a>'
 
 var quimica_organica = '<a target="_blank" href="https://zoom.us/j/9283126354?pwd=MGdDVWZTUWxZSEJScW9CMmlGWFdMZz09">Química Orgânica</a>'
 
